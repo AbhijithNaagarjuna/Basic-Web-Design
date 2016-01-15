@@ -1,0 +1,295 @@
+<html>
+<head>
+<title>In-Quiz-itive</title>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Bitter:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<script src="jquery-1.11.3.js"></script>
+<script>
+</script>
+<style>
+body
+{
+background-color:#FFFFFF;
+}
+#title
+{
+position:fixed;
+text-align:center;
+margin-top:40px;
+margin-left:40px;
+font-size:50px;
+font-family: 'Playfair Display', serif;
+color:white;
+
+
+}
+#circle1
+{
+position:fixed;
+}
+#circle2
+{
+position:fixed;
+}
+#circle3
+{
+position:fixed;
+}
+#circle4
+{
+position:fixed;
+}
+#tagline
+{
+position:fixed;
+margin-top:125px;
+margin-left:150px;
+font-size:25px;
+font-family: 'Niconne', cursive;
+color:white;
+}
+
+
+#menu
+{
+position:fixed;
+width:200px;
+margin-top:200px;
+margin-left:-50px;
+text-decoration:none;
+}
+#menu ul
+{
+list-style:none;
+text-decoration:none;
+}
+#menu ul li
+{
+margin-top:15px;
+font-family: 'Bitter', serif;
+font-size:25px;
+width:160px;
+padding-top:10px;
+padding-bottom:10px;
+border-radius:0px 20px 20px 0px;
+padding-left:20px;
+box-shadow:5px 0px 10px #939393;
+text-decoration:none;
+}
+#menu ul li a
+{
+text-decoration:none;
+color:white;
+}
+#home
+{
+background-color:#FF7A5A;
+color:white;
+text-decoration:none;
+}
+#quiz
+{
+background-color:#F78D3F;
+color:white;
+text-decoration:none;
+}
+#signup
+{
+background-color:#2BBBD8;
+color:white;
+text-decoration:none;
+}
+#aboutus
+{
+background-color:#102E37;
+color:white;
+text-decoration:none;
+}
+
+.pages 
+{  
+  text-decoration:none;  
+  min-height:100vh;
+  max-height:150vh;
+  display: flex;
+  align-items:right;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.b-red {
+  background-color: #FF7A5A;
+  text-decoration:none;
+}
+
+.b-orange{
+  background: #F78D3F;
+  text-decoration:none;
+}
+
+.b-blue {
+  background: #2BBBD8;
+  text-decoration:none;
+}
+
+.b-black {
+  background:#102E37;
+  text-decoration:none;
+}
+a
+{
+text-decoration:none;
+}
+
+</style>
+</head>
+<body>
+<header>
+<svg id="circle1" height="1000" width="1000">
+  <circle cx="75" cy="75" r="50"  fill="#FF7A5A" />
+</svg>
+
+<svg id="circle2" height="1000" width="1000">
+  <circle cx="150" cy="75" r="50"  fill=" #F78D3F" />
+</svg>
+<svg id="circle3" height="1000" width="1000">
+  <circle cx="225" cy="75" r="50"  fill="#2BBBD8" />
+</svg>
+<svg id="circle4" height="1000" width="1000">
+  <circle cx="300" cy="75" r="50"  fill="#102E37 " />
+</svg>
+
+<h1 id="title">In-Quiz-itive</h1>
+<p id="tagline">An Ultimate Quizzing Platform </p>
+</header>
+<nav id="nav">
+<div id="menu">
+    <ul>
+	    <li id="home"><a href="#1" >Home</li>
+		<li id="quiz"><a href="#2" >Quiz Now</li>
+		<li id="signup"><a href="#3" >SignUp</li>
+		<li id="aboutus"><a href="#4">About Us</li>
+	</ul>
+</div>
+</nav>
+<section class="pages b-red" id="1">
+   <article>
+      <div>
+	     <h1 id="homepage">News and Updates</h1><hr id="hr1">
+		     <div>
+			    
+			 </div>
+	  </div>
+   </article>
+</section>
+<style>
+#hr1
+{
+color:white;
+margin-top:-40px;
+width:173vh;
+}
+
+#homepage
+{
+margin-left:750px;
+margin-top:150px;
+text-decoration:none;
+font-family: 'Bitter', serif;
+color:white;
+font-size:45px;
+}
+
+
+</style>
+<section class="pages b-orange" id="2">
+   <article >
+      <div>
+	     <h1 id="quiznow">Quiz Now</h1><hr id="hr2"> 
+		        <div>
+				</div>
+	  </div>
+   </article>
+</section>
+<style>
+#hr2
+{
+color:white;
+margin-top:-40px;
+}
+
+#quiznow
+{
+margin-left:900px;
+margin-top:150px;
+text-decoration:none;
+font-family: 'Bitter', serif;
+color:white;
+font-size:45px;
+}
+</style>
+
+<section class="pages b-blue" id="3">
+    <article >
+	    <div >
+		    <h1 id="sign">SignUp</h1><hr id="hr3">
+			       <div>
+				   </div>
+		</div>
+	</article>
+</section>
+<style>
+#hr3
+{
+color:white;
+margin-top:-40px;
+width:173vh;
+}
+
+#sign
+{
+margin-left:900px;
+margin-top:150px;
+text-decoration:none;
+font-family: 'Bitter', serif;
+color:white;
+font-size:45px;
+}
+
+</style>
+
+<section class="pages b-black" id="4">
+    <article>
+	     <div>
+		     <h1 id="us">About Us</h1><hr id="hr4">
+			     <div>
+				 </div>
+		 </div>
+	</article>
+</section>
+<style>
+#hr4
+{
+color:white;
+margin-top:-40px;
+width:173vh;
+}
+
+#us
+{
+margin-left:900px;
+margin-top:150px;
+text-decoration:none;
+font-family: 'Bitter', serif;
+color:white;
+font-size:45px;
+}
+</style>
+</body>
+</html>

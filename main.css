@@ -1,0 +1,240 @@
+body
+{
+background-color:#FFFFFF;
+}
+#title
+{
+position:fixed;
+text-align:center;
+margin-top:40px;
+margin-left:40px;
+font-size:50px;
+font-family: 'Playfair Display', serif;
+color:white;
+
+
+}
+#circle1
+{
+position:fixed;
+}
+#circle2
+{
+position:fixed;
+}
+#circle3
+{
+position:fixed;
+}
+#circle4
+{
+position:fixed;
+}
+#tagline
+{
+position:fixed;
+margin-top:125px;
+margin-left:150px;
+font-size:25px;
+font-family: 'Niconne', cursive;
+color:white;
+}
+
+
+#menu
+{
+position:fixed;
+width:200px;
+margin-top:200px;
+margin-left:-50px;
+text-decoration:none;
+}
+#menu ul
+{
+list-style:none;
+text-decoration:none;
+}
+#menu ul li
+{
+margin-top:15px;
+font-family: 'Bitter', serif;
+font-size:25px;
+width:160px;
+padding-top:10px;
+padding-bottom:10px;
+border-radius:0px 20px 20px 0px;
+padding-left:20px;
+box-shadow:5px 0px 10px #939393;
+text-decoration:none;
+}
+#menu ul li a
+{
+text-decoration:none;
+color:white;
+}
+#home
+{
+background-color:#FF7A5A;
+color:white;
+text-decoration:none;
+}
+#quiz
+{
+background-color:#F78D3F;
+color:white;
+text-decoration:none;
+}
+#signup
+{
+background-color:#2BBBD8;
+color:white;
+text-decoration:none;
+}
+#aboutus
+{
+background-color:#102E37;
+color:white;
+text-decoration:none;
+}
+
+.pages 
+{  
+  text-decoration:none;  
+  min-height:100vh;
+  max-height:150vh;
+  display: flex;
+  align-items:right;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.b-red {
+  background-color: #FF7A5A;
+  text-decoration:none;
+}
+
+.b-orange{
+  background: #F78D3F;
+  text-decoration:none;
+}
+
+.b-blue {
+  background: #2BBBD8;
+  text-decoration:none;
+}
+
+.b-black {
+  background:#102E37;
+  text-decoration:none;
+}
+a
+{
+text-decoration:none;
+}
+
+#hr1
+{
+color:white;
+margin-top:-40px;
+width:173vh;
+}
+
+#homepage
+{
+margin-left:750px;
+margin-top:150px;
+text-decoration:none;
+font-family: 'Bitter', serif;
+color:white;
+font-size:45px;
+}
+
+
+#hr2
+{
+color:white;
+margin-top:-40px;
+}
+
+#quiznow
+{
+margin-left:900px;
+margin-top:150px;
+text-decoration:none;
+font-family: 'Bitter', serif;
+color:white;
+font-size:45px;
+}
+
+#login
+{
+ margin-left:500px;
+}
+#hr3
+{
+color:white;
+margin-top:-40px;
+width:173vh;
+}
+
+#sign
+{
+margin-left:900px;
+margin-top:150px;
+text-decoration:none;
+font-family: 'Bitter', serif;
+color:white;
+font-size:45px;
+}
+
+#contacttitle
+{				    
+color:white;
+font-family:'Bitter', serif;
+font-size:20px;
+margin-left:-100px;
+}
+				 
+#fb
+{
+margin-left:250px;
+}
+#devlop
+{
+margin-left:900px;
+margin-top:10px;
+}
+				
+				
+				 
+#abhipic img
+{
+border:5px solid white;
+border-radius:20px;
+}
+				
+h4
+{
+color:white;
+font-family:'Bitter', serif;
+font-size:20px;
+margin-top:10px;
+}
+
+#hr4
+{
+color:white;
+margin-top:-40px;
+width:173vh;
+}
+
+#us
+{
+margin-left:900px;
+margin-top:150px;
+text-decoration:none;
+font-family: 'Bitter', serif;
+color:white;
+font-size:45px;
+}
